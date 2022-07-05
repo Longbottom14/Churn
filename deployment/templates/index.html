@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churn Prediction</title>
+</head>
+<body>
+    
+    <h2> Welcome to Dekoba </h2>
+
+    <form action="/submit" method="post" style="text-align:center;">
+
+        <label for "Tenure" > Tenure:</label><br>
+        <input type ="text" id="tenure" name="tenure" value="0-72"  style="text-align:center;" ><br>
+        <br>
+        <label for "MonthlyCharges"> MonthlyCharges:</label><br>
+        <input type="text" id="MonthlyCharges" name="monthlycharges" value="18-118" style="text-align:center;" ><br>
+        <br>
+        <label for "totalcharges"> totalcharges:</label><br>
+        <input type="text" id="totalcharges" name="totalcharges" value="0-8685" style="text-align:center;" ><br>
+        <br>
+        <label for "SeniorCitizen"> SeniorCitizen:</label><br>
+        <input type="text" id="seniorcitizen" name="seniorcitizen" value="0/1" style="text-align:center;" ><br>
+        <br>
+        
+        <label for contract"> Select contract:</label><br>
+        <select name="contract" id="contract" style="text-align:center;" >
+            <option value="two_year">two_year</option>
+            <option value="one_year">one_year</option>
+            <option value="month-to-month">month-to-month</option>
+        </select>
+        <br><br>
+
+        <label for gender"> Select gender:</label><br>
+        <select name="gender" id="gender" style="text-align:center;">
+            <option value="male">male</option>
+            <option value="female">female</option>
+        </select>
+        <br><br>
+
+        <label for partner"> Select partner:</label><br>
+        <select name="partner" id="partner" style="text-align:center;">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+        </select>
+        <br><br>
+
+        <label for dependents"> Select dependents:</label><br>
+        <select name="dependents" id="dependents" style="text-align:center;">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+        </select>
+        <br><br>
+
+        <label for phoneservice"> Select phoneservice:</label><br>
+        <select name="phoneservice" id="phoneservice" style="text-align:center;">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+        </select>
+        <br><br>
+
+        <label for multiplelines"> Select multiplelines:</label><br>
+        <select name="multiplelines" id="multiplelines" style="text-align:center;">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+            <option value="no_phone_service">no_phone_service</option>
+        </select>
+        <br><br>
+
+
+        <label for internetservice"> Select internetservice:</label><br>
+        <select name="internetservice" id="internetservice" style="text-align:center;">
+            <option value="fiber_optic">fiber_optic</option>
+            <option value="dsl">dsl</option>
+            <option value="no">no</option>
+        </select>
+        <br><br>
+
+        <label for onlinesecurity"> Select onlinesecurity:</label><br>
+        <select name="onlinesecurity" id="onlinesecurity" style="text-align:center;">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+            <option value="no_internet_service">no_internet_service</option>
+        </select>
+        <br><br>
+
+        <label for onlinebackup"> Select onlinebackup:</label><br>
+        <select name="onlinebackup" id="onlinebackup" style="text-align:center;">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+            <option value="no_internet_service">no_internet_service</option>
+        </select>
+        <br><br>
+
+        <label for deviceprotection"> Select deviceprotection:</label><br>
+        <select name="deviceprotection" id="deviceprotection" style="text-align:center;">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+            <option value="no_internet_service">no_internet_service</option>
+        </select>
+        <br><br>
+
+        <label for techsupport"> Select techsupport:</label><br>
+        <select name="techsupport" id="techsupport" style="text-align:center;">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+            <option value="no_internet_service">no_internet_service</option>
+        </select>
+        <br><br>
+
+        <label for streamingtv"> Select streamingtv:</label><br>
+        <select name="streamingtv" id="streamingtv" style="text-align:center;">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+            <option value="no_internet_service">no_internet_service</option>
+        </select>
+        <br><br>
+
+        <label for streamingmovies"> Select streamingmovies:</label><br>
+        <select name="streamingmovies" id="streamingmovies" style="text-align:center;">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+            <option value="no_internet_service">no_internet_service</option>
+        </select>
+        <br><br>
+
+        <label for paperlessbilling"> Select paperlessbilling:</label><br>
+        <select name="paperlessbilling" id="paperlessbilling" style="text-align:center;">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+        </select>
+        <br><br>
+
+        <label for paymentmethod"> Select paymentmethod:</label><br>
+        <select name="paymentmethod" id="paymentmethod" style="text-align:center;">
+            <option value="mailed_check">mailed_check</option>
+            <option value="credit_card_(automatic)">credit_card_(automatic)</option>
+            <option value="bank_transfer_(automatic)">bank_transfer_(automatic)</option>
+            <option value="electronic_check">electronic_check</option>
+        </select>
+        <br><br>
+
+
+
+
+
+
+
+        <input type="submit"  value="Get Prediction" ><br>
+    </form>
+
+</body>
+</html>

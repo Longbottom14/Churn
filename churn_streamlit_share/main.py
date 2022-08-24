@@ -6,9 +6,12 @@ import streamlit as st
 import warnings 
 warnings.filterwarnings('ignore')
 
-loaded_models ={} # load models
-with open('churn-models.bin', 'rb') as f_in:
-    loaded_models['xgb'],loaded_models['Lgb'],loaded_models['Logistic_reg'],loaded_models['bayes'] = pickle.load(f_in)
+@st.cache(allow_output_mutation = True)
+def load_model():
+    loaded_models ={} # load models
+    with open('churn-models.bin', 'rb') as f_in:
+        loaded_models['xgb'],loaded_models['Lgb'],loaded_models['Logistic_reg'],loaded_models['bayes'] = pickle.load(f_in)
+loaded_models = load_model()
 
 def preprocessing_single(single_dict):
     df = pd.DataFrame(single_dict,index=[0])
@@ -65,7 +68,7 @@ def predict_single(trained_models,df_single):
 
 def submit():
     st.title('Customer Churn Predictor')
-    st.image("""churn.jpeg""")
+    st.image("""churn_streamlit_share\churn.jpeg""")
     st.header('Enter the characteristics of the Customer:')
 
     tenure = st.slider('Tenure:', 0.0, 72.0, 32.3)

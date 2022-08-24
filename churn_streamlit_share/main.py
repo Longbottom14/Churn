@@ -9,7 +9,7 @@ warnings.filterwarnings('ignore')
 @st.cache(allow_output_mutation = True)
 def load_model():
     loaded_models ={} # load models
-    with open('churn-models.bin', 'rb') as f_in:
+    with open('https://github.com/Longbottom14/Churn/blob/main/churn_streamlit_share/churn-models.bin?raw=true', 'rb') as f_in:
         loaded_models['xgb'],loaded_models['Lgb'],loaded_models['Logistic_reg'],loaded_models['bayes'] = pickle.load(f_in)
 loaded_models = load_model()
 

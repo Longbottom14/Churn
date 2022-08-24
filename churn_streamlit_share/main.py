@@ -68,7 +68,7 @@ def predict_single(trained_models,df_single):
 
 def submit():
     st.title('Customer Churn Predictor')
-    st.image("churn_streamlit_share\churn.jpg")
+    st.image("churn.jpg")
     st.header('Enter the characteristics of the Customer:')
 
     tenure = st.slider('Tenure:', 0.0, 72.0, 32.3)

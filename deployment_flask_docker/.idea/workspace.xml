@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="922c2ec2-f642-4ff7-a328-83c44abf1adb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.ipynb_checkpoints/Churn Deploy-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.ipynb_checkpoints/Churn1 EDA-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Churn 2 Model Training.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Churn 3 Blending &amp; Stacking.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Churn Deploy.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Churn dashboard.pbix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Churn1 EDA.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../for_churn_dashboard.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2E9QbunEwvM2gkJXtrCnbie6Urg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="922c2ec2-f642-4ff7-a328-83c44abf1adb" name="Default Changelist" comment="" />
+      <created>1662005394968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662005394968</updated>
+    </task>
+    <servers />
+  </component>
+</project>
